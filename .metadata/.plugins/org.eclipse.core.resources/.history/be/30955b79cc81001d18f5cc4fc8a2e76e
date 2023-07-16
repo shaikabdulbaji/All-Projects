@@ -1,0 +1,18 @@
+package interfaces;
+
+public class oBird extends oAnimal {
+
+	@Override
+	public void eating() {
+		System.out.println();
+	}
+
+	@Override
+	public void sleeping() {
+
+		System.out.println();
+	}
+	
+	
+
+}

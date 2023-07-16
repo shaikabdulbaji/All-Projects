@@ -1,0 +1,21 @@
+package interfaces;
+
+public class lclassB extends lclassA implements linterfaceX, linterfaceY{
+
+	@Override
+	public void methodY() {
+
+		System.out.println(" Inside MethodY ");
+	}
+
+	@Override
+	public void methodX() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+
+}

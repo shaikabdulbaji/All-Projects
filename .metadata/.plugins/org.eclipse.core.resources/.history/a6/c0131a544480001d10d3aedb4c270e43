@@ -1,0 +1,18 @@
+package interfaces;
+
+public class iinterfacesdemo {
+
+	public static void main(String[] args) {
+		
+//		iinterfacesbank bank = new iinterfacesbank();   we can't create object for interfaces
+		
+		
+		iinterfacesbankaxis is = new iinterfacesbankaxis();
+		is.depositeAmount();
+		is.FixedDeposite();
+		is.withdrawAmount();
+		is.openFlexibleFixedDeposite();
+		
+	}
+
+}

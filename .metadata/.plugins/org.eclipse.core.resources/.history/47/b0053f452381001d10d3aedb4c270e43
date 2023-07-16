@@ -1,0 +1,11 @@
+package interfaces;
+
+public class jimplementingClassThree {
+	
+	public void methodThree() {
+		
+		System.out.println(" Inside method Three ");
+
+		}
+
+}

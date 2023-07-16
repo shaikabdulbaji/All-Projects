@@ -1,0 +1,13 @@
+package interfaces;
+
+public class oCat extends oBird{
+
+	@Override
+	public void sleeping() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+}

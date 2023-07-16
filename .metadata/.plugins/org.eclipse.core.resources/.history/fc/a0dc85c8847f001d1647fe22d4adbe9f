@@ -1,0 +1,5 @@
+package interfaces;
+
+public interface bstatic_methods_in_interface_and_their_use {
+
+}

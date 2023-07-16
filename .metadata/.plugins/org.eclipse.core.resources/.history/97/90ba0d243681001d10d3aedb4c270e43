@@ -1,0 +1,5 @@
+package interfaces;
+
+public interface kbasketball extends kSports{
+
+}

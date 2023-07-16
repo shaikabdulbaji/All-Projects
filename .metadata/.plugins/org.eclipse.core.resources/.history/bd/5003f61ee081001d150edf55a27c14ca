@@ -1,0 +1,15 @@
+package interfaces;
+
+public abstract class qAnimal {
+	
+	int speed;
+	int legscount;
+	
+	public abstract void eating();
+	
+	public void sleeping()
+	{
+		System.out.println(" Animal is Sleeping ");
+	}
+
+}

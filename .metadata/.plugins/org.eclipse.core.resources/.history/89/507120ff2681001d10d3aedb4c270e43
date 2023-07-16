@@ -1,0 +1,10 @@
+package interfaces;
+
+public class jimplementingzdemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

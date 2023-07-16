@@ -1,0 +1,17 @@
+package interfaces;
+
+public abstract class oBird extends oAnimal {
+
+	@Override
+	public void eating() {
+		
+		System.out.println(" Bird is Eating ");
+	}
+	
+	
+	/*
+		 If we don't want to implement all methods here then we get error to overcome this we put chils class as 
+		 abstract.
+	*/
+	
+}

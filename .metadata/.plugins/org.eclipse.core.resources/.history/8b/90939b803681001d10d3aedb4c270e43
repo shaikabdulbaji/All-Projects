@@ -1,0 +1,11 @@
+package interfaces;
+
+public class ksunrisers implements kbasketball{
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

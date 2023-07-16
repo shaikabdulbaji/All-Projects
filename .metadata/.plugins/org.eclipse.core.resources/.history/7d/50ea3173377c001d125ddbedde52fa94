@@ -1,0 +1,15 @@
+package OOPS_Concept;
+
+public class bdog {
+
+
+		String breed;
+		String name;
+		String color;
+		
+		public void barking()
+		{
+			
+		}
+
+}

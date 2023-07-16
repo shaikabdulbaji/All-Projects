@@ -1,0 +1,58 @@
+[
+  {
+    "id" : 1,
+    "firstname": "shaik",
+    "lastname": "abdul",
+    "sex": "male",
+    "emailaddress": "sk@gmail.com"
+  },
+  {
+    "id" : 2,
+    "firstname": "pat",
+    "lastname": "rasool",
+    "sex": "female",
+    "emailaddress": "pr@gmail.com"
+  },
+  {
+    "id" : 3,
+    "firstname": "kareem",
+    "lastname": "sk",
+    "sex": "male",
+    "emailaddress": "sk1@gmail.com"
+  },
+  {
+    "id" : 4,
+    "firstname": "md",
+    "lastname": "rasool",
+    "sex": "male",
+    "emailaddress": "md@gmail.com"
+  },
+  {
+    "id" : 5,
+    "firstname": "md",
+    "lastname": "gouse",
+    "sex": "male",
+    "emailaddress": "mg@gmail.com"
+  },
+  {
+    "id" : 6,
+    "firstname": "shaik",
+    "lastname": "farha",
+    "sex": "female",
+    "emailaddress": "sf@gmail.com"
+  },
+  {
+    "id" : 7,
+    "firstname": "shaik",
+    "lastname": "hussain",
+    "sex": "male",
+    "emailaddress": "sh@gmail.com"
+  },
+  {
+    "id" : 8,
+    "firstname": "shaik",
+    "lastname": "moulabi",
+    "sex": "female",
+    "emailaddress": "sm@gmail.com"
+  }
+]

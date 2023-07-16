@@ -1,0 +1,7 @@
+package interfaces;
+
+public interface ginterfacesbank {
+	
+	void depositeAmount(); // By default it is public
+
+}

@@ -1,0 +1,13 @@
+package interfaces;
+
+public interface pBird {
+	
+	public void methodA();
+	
+	protected void methodB();
+	
+	private void methodC();
+	
+	void methodD();
+
+}

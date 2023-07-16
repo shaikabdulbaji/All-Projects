@@ -1,0 +1,14 @@
+package OOPS_Concept;
+
+public class mPolymorphismclasstwo2 {
+	
+	public static void main(String[] args)
+	{
+		
+		mPolymorphismclasstwo t = new mPolymorphismclasstwo();
+		
+		
+		
+	}
+
+}

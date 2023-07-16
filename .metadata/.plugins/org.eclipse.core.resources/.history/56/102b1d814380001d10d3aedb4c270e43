@@ -1,0 +1,21 @@
+package interfaces;
+
+public class iinterfacesbankaxis implements iinterfacesbank{
+
+	@Override
+	public void depositeAmount() {
+
+		System.out.println(" Deposite amount in Axis bank ");
+		
+	}
+
+	@Override
+	public void FixedDeposite() {
+
+		System.out.println(" withdraw Amount from Axis bank ");
+		
+	}
+	
+	
+
+}

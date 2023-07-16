@@ -1,0 +1,17 @@
+package interfaces;
+
+public class jimplementingyak implements jimplementingwalk, jimplementingfly{
+
+	@Override
+	public void flying() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void walking() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package interfaces;
+
+public class bstaticdemo {
+
+	public static void main(String[] args) {
+
+		// To access any method from interface we have call with interface name
+		
+		
+		
+		
+	}
+
+}

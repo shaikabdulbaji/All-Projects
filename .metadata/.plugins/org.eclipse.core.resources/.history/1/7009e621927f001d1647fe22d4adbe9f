@@ -1,0 +1,29 @@
+package interfaces;
+
+public class cintroduction_for_interface {
+
+	public static void main(String[] args) {
+
+/*
+ 		
+ 	Interface :-
+ 	-------------
+ 	* Interfaces looks similar to classes eg : In place of class their is interface
+ 	* Interfaces are extension of abstract classes
+ 	* In abstract class partial implementation is done
+ 	* In interface fully implementation is done
+ 		
+ 	abstract class					Extension					Interface
+ 	--------------------------------	|	 ------------------------------	
+ 	public abstract class ClassOne()
+ 	{
+ 	
+ 	}
+ 		
+ 		
+ */
+		
+		
+	}
+
+}

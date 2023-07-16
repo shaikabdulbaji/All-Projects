@@ -1,0 +1,17 @@
+package constructors;
+
+public class asample {
+
+/*
+	final int count;  if we want to initialize a value to variable with keyword as final, in 2 ways we can do
+	
+	1. public void initializeCount()
+	   {
+	   		count = 5;
+	   }
+	
+	2. final int count = 5;
+*/	
+	
+
+}

@@ -1,0 +1,22 @@
+package interfaces;
+
+public class cintroduction_for_interface {
+
+	public static void main(String[] args) {
+
+/*
+ 		
+ 	Interface :-
+ 	-------------
+ 	* Interfaces looks similar to classes eg : In place of class their is interface
+ 		
+ 		
+ 		
+ 		
+ 		
+ */
+		
+		
+	}
+
+}

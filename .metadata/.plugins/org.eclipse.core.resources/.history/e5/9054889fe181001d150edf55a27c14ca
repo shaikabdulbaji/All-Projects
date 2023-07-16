@@ -1,0 +1,12 @@
+package interfaces;
+
+public class qBird extends qAnimal{
+
+	@Override
+	public void eating() {
+
+		
+		
+	}
+
+}

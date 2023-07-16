@@ -1,0 +1,11 @@
+package interfaces;
+
+public class qDemo {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

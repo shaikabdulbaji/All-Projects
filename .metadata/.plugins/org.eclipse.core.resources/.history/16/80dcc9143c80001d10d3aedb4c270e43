@@ -1,0 +1,7 @@
+package interfaces;
+
+public interface hbank {
+	
+	// In java classes are implemented by using " implements " keyword
+
+}

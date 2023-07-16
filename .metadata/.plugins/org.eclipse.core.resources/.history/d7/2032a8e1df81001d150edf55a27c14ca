@@ -1,0 +1,10 @@
+package interfaces;
+
+public abstract class qAnimal {
+	
+	int speed;
+	int legscount;
+	
+	public abstract void eating();
+
+}

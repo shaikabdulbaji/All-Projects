@@ -1,0 +1,30 @@
+package OOPS_Concept;
+
+public class mPolymorphism {
+
+	public static void main(String[] args) {
+
+/*
+ 			
+ 	 Polymorphism :
+ 	 ---------------
+ 	 Poly = many , morphism = forms
+ 	 polymorphism means one thing in many forms.
+ 			
+ 	 Types of Polymorphism :
+ 	 	1. Compile Time Polymorphism (Overloading)
+ 	 		* Multiple methods having the same name but different signature(i.e. no.of parameters, type of parameters, order of parameters)
+ 	 		* Demonstrate Method Overloading by creating add methods having different number of type of parameters or order of parameters
+ 	 		* Demonstrate constructor overloading
+ 	 		
+ 	 		 
+ 	 	2. RunTime Polymorphism :
+ 	 	
+ 			
+ 			
+ */
+		
+		
+	}
+
+}

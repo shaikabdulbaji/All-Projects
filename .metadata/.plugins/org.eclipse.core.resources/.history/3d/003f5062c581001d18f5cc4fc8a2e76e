@@ -1,0 +1,8 @@
+package interfaces;
+
+//public class mabstractclass_introduction {   // Normal class
+//
+//}
+public abstract class mabstractclass_introduction {			// abstract class
+
+}

@@ -1,0 +1,26 @@
+package OOPS_Concept;
+
+public class dInheritance {
+
+	public static void main(String[] args) {
+
+/*
+ 		* Inheritance is a mechanism in which one class acquires the " properties(i.e variables and methods) " of another class
+ 		* Inheritance is mainly used for " Code Reusability "
+ 		* Baseclass = Parent Class  extends classes are Child classes eg : Parents money & property was eextend to children
+ 		
+ 		 
+ 		* Child class can have specific properties(i.e. variables and methods) which ae not available in the parent class
+ 		* Object created for parent class can access the variables and methods that are created in parent class only. It can't access 
+ 		  child class properties 
+ 		* Object created for child class which is inheriting the parent class can access the variables and methods of bothparent class and child class
+ 		
+ 		
+ 		'IS A' Relationship
+ 		
+ */
+		
+		
+	}
+
+}

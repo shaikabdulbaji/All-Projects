@@ -1,0 +1,8 @@
+package interfaces;
+
+public class jimplementing_multiple_interfaces {
+	
+	// In  this case multiple inheritance is not possible  to overcome this we go to multiple inheritance
+
+
+}

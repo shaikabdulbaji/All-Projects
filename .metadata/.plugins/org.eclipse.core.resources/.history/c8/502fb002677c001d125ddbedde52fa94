@@ -1,0 +1,22 @@
+package OOPS_Concept;
+
+public class mPolymorphism {
+
+	public static void main(String[] args) {
+
+/*
+ 			
+ 	 Polymorphism :
+ 	 ---------------
+ 	 Poly = many , morphism = forms
+ 	 polymorphism means one thing in many forms.
+ 			
+ 			
+ 			
+ 			
+ */
+		
+		
+	}
+
+}

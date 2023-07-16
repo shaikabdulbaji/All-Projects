@@ -1,0 +1,49 @@
+1688877362155	Copy compilation unit
+1688877385030	Rename type 'POSTRequest'
+1688878790961	Copy compilation unit
+1689049631587	Rename type 'ajsonpathintroduction'
+1689133281270	Copy compilation unit
+1689133298096	Rename type 'aJsonPathNonExistance'
+1689135520988	Copy compilation unit
+1689169716611	Rename resource 'gfile.json'
+1689174380171	Copy compilation unit
+1689183391761	Copy compilation unit
+1689184336263	Copy compilation unit
+1689221099236	Rename package 'CreateBooking'
+1689221112639	Rename package 'GetBooking'
+1689221135913	Rename package 'UpdateBooking'
+1689221146859	Rename package 'PartialUpdateBooking'
+1689221155338	Rename package 'DeleteBooking'
+1689221164824	Rename package 'PathParameters'
+1689221364969	Move compilation unit
+1689221376791	Move compilation unit
+1689221388214	Move compilation unit
+1689221393210	Move compilation unit
+1689221435003	Move compilation unit
+1689221442298	Move compilation unit
+1689221496422	Rename package 'OtherConceptsOfRestAssured'
+1689221507931	Rename package 'json'
+1689221632514	Rename type 'MultipleBookings'
+1689221643492	Rename type 'MultipleBookingsWithRequestSpec'
+1689223644035	Rename type 'WithoutResponseSpecification'
+1689223669998	Rename type 'CreateBookingWithRequestandResponseSpecification'
+1689223680581	Rename type 'ExtractResponseAsString'
+1689223687063	Rename type 'MeasureResponseTime'
+1689223750112	Rename type 'HeadersExample'
+1689223976289	Rename type 'DefaultHeaderBehaviour'
+1689224046549	Rename type 'fDefaultHeaderBehaviour'
+1689224051405	Rename type 'RealTimeHeaderOverwrite'
+1689224068957	Rename type 'WithDefaultValues'
+1689224080906	Rename type 'DefaultValue1'
+1689224087399	Rename type 'cDefaultValue1'
+1689226951549	Move source folder
+1689226986707	Move folder
+1689227041701	Move folder
+1689227059226	Move folder
+1689227110624	Delete element
+1689227198722	Delete element
+1689230503850	Copy compilation unit
+1689230531605	Rename type 'POSTRequest'
+1689231851962	Copy file
+1689231864617	Rename resource 'CreateBookingResponseSchema.json'
+1689231894680	Copy compilation unit

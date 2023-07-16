@@ -1,0 +1,22 @@
+package Collections;
+
+public class mmap_Interface {
+
+	public static void main(String[] args) {
+
+/*
+ 		* Collection(I) and map(I) are roots of Collection Framework
+ 		* Collection(I) and map(I) are some what like siblings
+ 		
+ 		* If you want to represent a group of objects as key value pairs then we go for map(I) 
+ 		      			Employees
+ 		     Employee Id's		Employee Names 		
+	 	    	 Key				Value
+	 		     101				Shaik
+	 		     102				Abdul	
+	 		     103				Baji
+	 		     104				Rasool
+ */
+	}
+
+}

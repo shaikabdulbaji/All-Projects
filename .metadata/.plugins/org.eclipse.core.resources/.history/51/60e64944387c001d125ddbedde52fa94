@@ -1,0 +1,23 @@
+package OOPS_Concept;
+
+public class cdog_demo {
+
+	public static void main(String[] args) {
+
+		bdog d = new bdog();
+		d.breed = "Doberman";
+		d.name = "Ginger";
+		d.color = "Black";
+		
+		bdog d1 = new bdog();
+		d1.breed = "Pug";
+		d1.name = "Ruby";
+		d1.color = "Brown";
+		
+		bdog d2 = new bdog();
+		d2.breed = "Dalmition";
+		d2.name = "Piper";
+		d2.color = "White";
+	}
+
+}

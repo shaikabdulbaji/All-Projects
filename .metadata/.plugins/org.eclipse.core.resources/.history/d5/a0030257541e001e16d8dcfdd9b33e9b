@@ -1,0 +1,5 @@
+package OtherConceptsOfRestAssured;
+
+public class DefaultHeaderBehaviour {
+
+}

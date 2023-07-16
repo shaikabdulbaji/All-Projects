@@ -1,0 +1,12 @@
+package interfaces;
+
+public class ddefaultanimalfrog implements ddefaultanimal{
+
+	@Override
+	public void eat() {
+
+		System.out.println(" frog is eating ");
+		
+	}
+
+}

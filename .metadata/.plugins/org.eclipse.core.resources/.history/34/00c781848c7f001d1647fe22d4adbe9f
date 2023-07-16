@@ -1,0 +1,33 @@
+package constructors;
+
+public class method_chaining_sample {
+
+	public static void main(String[] args) {
+
+/*
+		String str = "Abdul Baji";
+		
+		String str2 = str.replace(" ", "_");
+		
+		String str3 = str2.concat(" ");
+		
+		String str4 = str3.concat("Core Java");
+		
+		String str5  = str4.replace(" ", "_");
+		
+		System.out.println(str5);
+		
+		// For adding anything and replacing anything we want to write this much of line, To overcome this we go for
+		// Method Chanining
+*/
+		
+		String str = "Abdul Baji";
+		
+		str.replace(" ", "_").concat(" ").concat("Core Java").replace(" ", "_");
+		
+		System.out.println(str);
+		
+		
+	}
+
+}

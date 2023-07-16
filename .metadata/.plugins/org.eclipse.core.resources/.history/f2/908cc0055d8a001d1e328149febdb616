@@ -1,0 +1,18 @@
+package interfaces;
+
+public abstract class rAnimal {
+	
+	/*
+	 	
+	 	This r alphabet concept is related to abstract classes and Fields
+	 	
+	 	* Can we create fields inside the abstract classes ? Yes.
+	 	* Are there any restrictions or any differences btw the fields created in abstract and 
+	 	  normal classes ? No.
+	 */
+	
+	int speed; 
+	
+	
+
+}

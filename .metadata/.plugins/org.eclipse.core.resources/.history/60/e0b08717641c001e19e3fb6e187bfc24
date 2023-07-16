@@ -1,0 +1,11 @@
+package RestfulCreatBookings;
+
+public class PathParameterExample {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

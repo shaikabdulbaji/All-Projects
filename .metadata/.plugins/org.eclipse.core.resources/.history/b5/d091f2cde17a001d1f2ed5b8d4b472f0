@@ -1,0 +1,40 @@
+package Generics;
+
+import java.util.ArrayList;
+
+public class generics_one {
+
+	public static void main(String[] args) {
+
+/*
+ 
+ 		* Generics for Type Saftey
+ 		* Generics was used at Collection frameworks and Classes and Methods
+ 		
+ 		Generics at Collection frameworks :
+ 		
+ 		
+ 
+ 
+ 
+ 
+ */
+		ArrayList<Object> a = new ArrayList<>();
+		a.add("Shaik");
+		a.add("Abdul");
+		a.add("Baji");
+		a.add(9);
+		System.out.println(a);
+		
+		ArrayList<String> a1 = new ArrayList<>();
+		a1.add("Shaik");
+		a1.add("Abdul");
+		a1.add("Baji");
+	//	a1.add(9);
+		System.out.println(a);
+		
+		
+		
+	}
+
+}

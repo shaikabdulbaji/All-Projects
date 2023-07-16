@@ -1,0 +1,16 @@
+package interfaces;
+
+public class finterfacesdemo {
+
+	public static void main(String[] args) {
+
+		// static
+		System.out.println(finterfacesbank.ACCOUNT_TYPE_ONE);
+		
+		// final
+		
+		
+		
+	}
+
+}

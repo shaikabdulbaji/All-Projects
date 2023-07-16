@@ -1,0 +1,23 @@
+package interfaces;
+
+public class hbankaxis implements hbank {
+
+	@Override
+	public void depositeAmount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdrawAmount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void openFixedDeposite() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

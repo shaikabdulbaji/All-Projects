@@ -1,0 +1,18 @@
+package json;
+
+import java.io.File;
+
+import io.restassured.path.json.JsonPath;
+
+public class gJsonPathWithFilters {
+	
+	public static void main(String[] args) {
+		
+		String filepath = System.getProperty("user.dir")+"\\src\\test\\java\\json\\gJsonPathWithFiltersfile.json";
+		File jsonArrayfile = new File(filepath);
+		
+		JsonPath jp = new JsonPath(jsonArrayfile);
+		
+	}
+
+}

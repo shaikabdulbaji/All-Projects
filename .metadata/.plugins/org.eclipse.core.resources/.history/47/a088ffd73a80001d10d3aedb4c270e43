@@ -1,0 +1,13 @@
+ package interfaces;
+
+public class finterfaces_and_methods {
+
+/*
+	Can we create methods inside interfaces?
+	Yes.
+	but with method body
+	
+	Methods inside interface are by default public and abstract
+*/
+
+}

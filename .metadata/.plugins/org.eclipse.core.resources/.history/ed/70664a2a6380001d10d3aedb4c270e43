@@ -1,0 +1,23 @@
+package interfaces;
+
+public class iinterfacesbankhdfc implements iinterfacesbank{
+
+	@Override
+	public void depositeAmount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void FixedDeposite() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdrawAmount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

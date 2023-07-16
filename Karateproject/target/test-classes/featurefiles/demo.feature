@@ -1,0 +1,1 @@
+Feature: Validate GET Request

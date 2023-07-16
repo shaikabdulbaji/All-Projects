@@ -1,0 +1,20 @@
+package interfaces;
+
+public abstract class nabstractClasses_and_abstractMethods {
+	
+	
+	public void methodX()
+	{
+		System.out.println(" Inside MethodX ");
+	}
+	
+	public void methodY()
+	{
+		System.out.println(" Inside MethodY ");
+	}
+	
+	public abstract void methodZ(); 
+	
+	// If the class to abstract then atleast one method should be abstract
+
+}

@@ -1,0 +1,14 @@
+package constructors;
+
+public class asample {
+	
+//	final int count; 
+	
+	
+	
+	
+	final int count = 5;
+	
+	
+
+}

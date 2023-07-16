@@ -1,0 +1,82 @@
+package Collections;
+
+import java.util.HashMap;
+
+public class nHashMap_Class {
+
+	public static void main(String[] args) {
+
+/*
+ 		
+ 		 * HashMap class is the child class of Map interface
+		 * Groups the objects as key value pairs
+		 * Adding key value pairs using put() method and printing them
+		 * Duplicate Keys are not allowed, if you try to insert any duplicate key the old value will get replaced with new value
+		  * put() - returns null when there are no duplicate keys inserted and returns the replaced value when duplication key is inserted
+		 * Retrieving the values using get(key) 
+		  * Returns null when the provided key is not there
+		 * Remove the values using remove(key)
+		  * Returns the removed value
+		 * Finding whether the key is available using containsKey(key)
+		  * Returns boolean value
+		 * Finding whether the value is available using containsValue(value)
+		  * Returns boolean value
+		 * Finding whether the HashMap is empty using isEmpty()
+		  * Returns false when not empty
+		 * Finding the size using size() 
+		 * Clearing all the key value pairs using clear()
+		 * Retrieving all the keys using keySet() 
+		  * Returns Set 
+		 * Retrieving all the values using values()
+		  * Returns Collection
+		 * Insertion order is not preserved
+		 * Duplicate keys are not allowed and Duplicate values are allowed
+		 * Retrieving all the Entries using enterySet()
+		  * Returns Set
+		  * Using iterator() to iterate
+		  * Entry is the inner interface of Map Interface
+		  * getKey(), getValue() and setValue()
+		 * Generics
+		  
+ */
+		// HashMap class is the child class of Map interface
+		HashMap m = new HashMap();
+		
+		// Adding key value pairs using put() method and printing them
+//		m.put(101, "Abdul");
+//		m.put(102, "Shaik");
+//		m.put(103, "Baji");
+	
+		// Duplicate Keys are not allowed, if you try to insert any duplicate key the old value will get replaced with new value+
+		// +and values can be duplicated
+//	    m.put(101, "Rassol");
+		
+//		System.out.println(m.put(101, "Abdul"));
+//		System.out.println(m.put(102, "Shaik"));
+//		System.out.println(m.put(103, "Baji"));
+//		System.out.println(m.put(101, "Rassol") +" got replaced ");
+	
+		m.put(101, "Abdul");
+		m.put(102, "Shaik");
+		m.put(103, "Baji");
+//		System.out.println(m.get(103));
+//		System.out.println(m.get(101));
+//		System.out.println(m.get(105)); // null as result
+//		Object r = m.remove(101);
+//		System.out.println(m.remove(102));
+		
+//		System.out.println(m.containsKey(102)); // 102 was there that's why it was true
+//		System.out.println(m.containsKey(109)); // 109 was not there that's why it was false
+		
+//		System.out.println(m.containsValue("Abdul")); // Abdul was there that's why it was true
+//		System.out.println(m.containsValue("Rasool")); // Rasool was not there that's why it was false
+		
+		System.out.println(m.isEmpty()); // Objects was there that's why it was false
+		
+		System.out.println(m);
+
+
+		
+	}
+
+}

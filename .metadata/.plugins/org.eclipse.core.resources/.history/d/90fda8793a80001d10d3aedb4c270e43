@@ -1,0 +1,10 @@
+ package interfaces;
+
+public class finterfaces_and_methods {
+
+/*
+	Can we create methods inside interfaces?
+	Yes.
+*/
+
+}

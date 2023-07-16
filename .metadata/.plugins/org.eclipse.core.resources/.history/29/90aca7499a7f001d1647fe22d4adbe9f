@@ -1,0 +1,13 @@
+package interfaces;
+
+public interface cintroductionInterfaceOneBank {
+	
+	String accountType = "Savings";
+	String accountType1 = "Current";
+
+} 
+
+
+
+
+				 

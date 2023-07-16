@@ -1,0 +1,17 @@
+package interfaces;
+
+public abstract class qAnimal {
+	
+//	This q alphabet concept is related to abstract classes and object creation
+	
+	int speed;
+	int legscount;
+	
+	public abstract void eating();
+	
+	public void sleeping()
+	{
+		System.out.println(" Animal is Sleeping ");
+	}
+
+}

@@ -1,0 +1,7 @@
+package interfaces;
+
+public class jimplementingClassOne {
+	
+	System.out.println(" Inside method One ");
+
+}

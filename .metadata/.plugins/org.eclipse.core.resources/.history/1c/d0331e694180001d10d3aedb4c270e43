@@ -1,0 +1,11 @@
+package interfaces;
+
+public class hbanksubaxis extends hbankaxis{
+	
+	public void depositeAmount() {
+
+		System.out.println(" Depositing Amount into Axis bank Account ");
+		
+	}
+
+}

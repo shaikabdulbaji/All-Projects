@@ -1,0 +1,16 @@
+package interfaces;
+
+public abstract class oAnimal {
+	
+	public abstract void eating();
+	
+	public abstract void sleeping();
+	
+	public void animal()
+	{
+		System.out.println(" Inside animal method of Animal Class ");
+	}
+	
+	
+
+}

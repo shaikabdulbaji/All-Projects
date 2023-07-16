@@ -1,0 +1,29 @@
+package interfaces;
+
+public class iinterfaces_and_object_creation_bank {
+
+/*
+	Can we create objects for the interfaces ?
+	No. 
+	 
+	 For abstract classes Thers is "NO" object creation
+	 For Interfaces there is "NO" object creation
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+*/
+	
+	
+	
+}

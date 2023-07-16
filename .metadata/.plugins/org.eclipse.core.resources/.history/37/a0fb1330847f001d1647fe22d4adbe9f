@@ -1,0 +1,18 @@
+package Generics;
+
+public class ddefaultanimalfish implements ddefaultanimal{
+
+	@Override
+	public void eat() {
+
+		System.out.println(" fish is eating ");
+		
+	}
+	
+	@Override
+	public void legs()
+	{
+		System.out.println(" Fish doesn't have any legs ");
+	}
+
+}

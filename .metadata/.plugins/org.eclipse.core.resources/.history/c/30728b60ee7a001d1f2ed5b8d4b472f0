@@ -1,0 +1,12 @@
+package Generics;
+
+public class cgenerics_one_lion<T> {
+	
+	T a;
+	
+	public void printmethod()
+	{
+		System.out.println(a);
+	}
+
+}

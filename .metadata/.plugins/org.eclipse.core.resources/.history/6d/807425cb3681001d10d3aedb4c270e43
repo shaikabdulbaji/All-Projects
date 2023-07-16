@@ -1,0 +1,11 @@
+package interfaces;
+
+public class kdemo {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

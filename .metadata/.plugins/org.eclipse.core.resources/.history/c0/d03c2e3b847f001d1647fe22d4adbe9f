@@ -1,0 +1,16 @@
+package interfaces;
+
+public class ddefault_methods_in_interface_and_their_use {
+
+	
+	/*
+	 * 
+	 * 
+	 * default void legs()
+		{
+			System.out.println(" All animals will have four legs ");
+		}
+	*/
+	
+}
+

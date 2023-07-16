@@ -1,0 +1,10 @@
+package OOPS_Concept;
+
+public class mPolymorphismclassone {
+	
+	public void add()
+	{
+		
+	}
+
+}

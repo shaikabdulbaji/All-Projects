@@ -1,0 +1,31 @@
+package OOPS_Concept;
+
+public class aIntroduction {
+
+	public static void main(String[] args) {
+
+/*
+ 			
+ 		* OOPS in Java stands for " Object Oriented Programming System "
+ 		
+ 		Purpose :-
+ 		------------
+ 		* OOPS Concept purpose in Java is to " represent the 'real world entities' as 'object' in our programming code "
+ 		
+ 		Real World Entities :
+ 		eg :- Physical things like " Laptop, Bootle, Pen, Mobile, Mouse, MobileCharger, Wallet, Table, Chair etc.... "
+ 		To represent this things as objects in Programming code is called OOPS Concept
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			
+ */
+		
+		
+		
+		
+	}
+
+}

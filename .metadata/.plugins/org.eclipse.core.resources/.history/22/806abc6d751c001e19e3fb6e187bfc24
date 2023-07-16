@@ -1,0 +1,35 @@
+package RestfulCreatBookings;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import io.restassured.RestAssured;
+
+public class PathParameterExample4 {
+
+	public static void main(String[] args) {
+
+		Map<String, Object> pathparameters = new HashMap<>();
+		pathparameters.put("basePath", "booking");
+		pathparameters.put("bookingId", 2);
+		
+		RestAssured
+			.given()
+				.log()
+				.all()
+	        .when()
+	        	/*
+	        		* If we give get() like this it will take basePath as booking and remaining value or inline parameters
+	        		  as bookingId.
+	        	*/
+	        	.get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}")
+	        .then()
+	        	.log()
+	        	.all();
+		
+		
+		
+		
+	}
+
+}

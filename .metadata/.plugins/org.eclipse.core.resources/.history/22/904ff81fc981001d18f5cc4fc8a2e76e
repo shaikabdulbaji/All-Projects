@@ -1,0 +1,11 @@
+package interfaces;
+
+public class nabstractClasses_and_abstractMethods {
+	
+	
+	public void methodX()
+	{
+		System.out.println(" Inside MethodX ");
+	}
+
+}

@@ -1,0 +1,15 @@
+package constructors;
+
+public class method_chaining_sample {
+
+	public static void main(String[] args) {
+
+		String str = "Abdul Baji";
+		
+		String str2 = str.replace(" ", "_");
+		
+		str2.concat(" ");
+		
+	}
+
+}

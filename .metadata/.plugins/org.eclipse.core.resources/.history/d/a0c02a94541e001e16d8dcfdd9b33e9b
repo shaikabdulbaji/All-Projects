@@ -1,0 +1,28 @@
+package OtherConceptsOfRestAssured;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Header;
+
+public class DefaultHeaderBehaviour {
+
+	
+	@Test
+	public void passHeader()
+	{
+		
+		RestAssured
+				.given()
+				.log()
+				.all()
+				.header("header1", "value1")
+				//.header("header2", "value2")
+				.header("header1", "value1")
+				.when()
+				.get();	
+	}
+	
+	
+	
+}

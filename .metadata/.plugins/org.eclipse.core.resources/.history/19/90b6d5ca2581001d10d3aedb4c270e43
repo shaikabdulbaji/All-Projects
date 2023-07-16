@@ -1,0 +1,14 @@
+package interfaces;
+
+/*
+public class jimplementingClassThree extends jimplementingClassOne, jimplementingClassTwo{
+	// In  this case multiple inheritance is not possible
+	
+	public void methodThree() {
+		
+		System.out.println(" Inside method Three ");
+
+		}
+
+}
+*/

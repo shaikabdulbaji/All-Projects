@@ -1,0 +1,14 @@
+package OOPS_Concept;
+
+public class dInheritance {
+
+	public static void main(String[] args) {
+
+/*
+ 		* Inheritance is a mechanism in which one class acquires the properties(i.e variables and methods) of another class
+ */
+		
+		
+	}
+
+}

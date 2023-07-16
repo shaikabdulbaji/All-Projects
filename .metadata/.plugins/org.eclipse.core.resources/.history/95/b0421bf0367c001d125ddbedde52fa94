@@ -1,0 +1,67 @@
+package OOPS_Concept;
+
+public class aIntroduction {
+
+	public static void main(String[] args) {
+
+/*	
+ 		* OOPS in Java stands for " Object Oriented Programming System "
+ 		
+ 		Purpose :-
+ 		------------
+ 		* OOPS Concept purpose in Java is to " represent the 'real world entities' as 'object' in our programming code "
+ 		
+ 		Real World Entities :
+ 		eg :- Physical things like " Laptop, Bootle, Pen, Mobile, Mouse, MobileCharger, Wallet, Table, Chair etc.... "
+ 		To represent this things as objects in Programming code is called OOPS Concept
+ 		
+ 		Different OOPS Concepts in Java ?
+ 		1. Objects
+ 		2. Class
+ 		3. Inheritance
+ 		4. Polymorphism
+ 		5. Abstraction
+ 		6. Encapsulation 
+ 		---------------------------------------------------------------------------------------------------------------
+ 		
+ 		Object :
+ 		1. Objects are nothing but the real world entities that have " State and Behaviour "
+ 			eg : dog, Laptop, Bootle, Pen, Mobile, Mouse, MobileCharger, Wallet, Table, Chair etc...............
+ 			dog :
+ 			State -	A dog has state like " name, colour, breed "
+ 			Behaviour - A dog has Behaviour like " barking, eating, sleeping, walking, running "
+ 		2. Technically speaking " Object is an Instance of a class "
+ 		3. Example for Object will be provided while explaining Class.
+ 		
+ 		Class :
+ 		1. Class is a " Template/Blueprint " which can be used for creating Objects
+ 			eg :For constructing house we want a " Plan " (OR) " Template/Blueprint ", by using this plan we can construct (OR) create real world Objects
+ 					Plan = Template/blueprint (Class in Java)
+ 					Construct = Create real world entities (Object in Java)
+ 				
+ 			Class Template/Blueprint										Object Real world entity
+ 					DOG																Breed : Doberman
+ 					Breed = Variables												Name : Ginger
+ 					Name = Variables												Colour : Black
+ 					Colour = Variables
+ 																					Breed : Pug
+ 					Barking															Name : Ruby
+ 					Eating															Colour : Brown
+ 					Sleeping
+ 					Walking															Breed : Dalmition
+ 					Running															Name : Piper Colour : White
+ 		
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			
+ */
+		
+		
+		
+		
+	}
+
+}

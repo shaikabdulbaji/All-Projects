@@ -1,0 +1,12 @@
+package OOPS_Concept;
+
+public class mPolymorphismclasstwo1 extends mPolymorphismclasstwo {
+	
+	// Overriding
+//	When a method in the child class(i.e. sub-class) is duplicate of a method in parent class(i.e. super-class), then the method in the
+//	  sub-class is said to override the method in super-class
+
+	
+	
+	
+}

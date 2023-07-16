@@ -1,0 +1,19 @@
+package interfaces;
+
+public class iinterfacesbankaxis implements iinterfacesbank{
+
+	@Override
+	public void depositeAmount() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void FixedDeposite() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

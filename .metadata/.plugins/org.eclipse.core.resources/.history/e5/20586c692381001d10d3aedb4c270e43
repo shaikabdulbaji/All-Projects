@@ -1,0 +1,13 @@
+package interfaces;
+
+/*
+public class jimplementingClassThree extends jimplementingClassOne, jimplementingClassTwo{
+	
+	public void methodThree() {
+		
+		System.out.println(" Inside method Three ");
+
+		}
+
+}
+*/

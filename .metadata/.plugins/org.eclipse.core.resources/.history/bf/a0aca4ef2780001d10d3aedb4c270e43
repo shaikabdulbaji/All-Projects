@@ -1,0 +1,7 @@
+package interfaces;
+
+public interface finterfacesbank {
+	
+	String ACCOUNT_TYPE_ONE = "Savings";
+
+}

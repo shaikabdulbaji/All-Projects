@@ -1,0 +1,11 @@
+package constructors;
+
+public class method_chaining_sample {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package Generics;
+
+public class ddefaultanimalcat implements ddefaultanimal {
+
+	@Override
+	public void eat() {
+
+		
+		System.out.println(" cat is eating ");
+	}
+
+}
