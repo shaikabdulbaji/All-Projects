@@ -10,14 +10,11 @@
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Modifiers.bpublic_access_modifier_classA"/>
     <fullyQualifiedTypeName name="Modifiers.ddefault_access_modifier_classA"/>
     <fullyQualifiedTypeName name="Modifiers.eprotected_access_modifier_classA"/>
@@ -31,15 +28,11 @@
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
     <fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
     <fullyQualifiedTypeName name="io.restassured.http.Header"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="io.restassured.config.RestAssuredConfig"/>
     <fullyQualifiedTypeName name="io.restassured.config.HeaderConfig"/>
     <fullyQualifiedTypeName name="io.restassured.specification.ResponseSpecification"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
     <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
     <fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
@@ -48,4 +41,12 @@
     <fullyQualifiedTypeName name="io.restassured.module.jsv.JsonSchemaValidator"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.hamcrest.MatcherAssert"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="io.restassured.common.mapper.TypeRef"/>
 </qualifiedTypeNameHistroy>

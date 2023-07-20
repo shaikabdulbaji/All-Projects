@@ -24,9 +24,9 @@ public class bJsonPathNonExistance {
 		
 		
 		// RootNode :  "$" is parent or root node
-		System.out.println(jsonpath.get("$"));
+	//	System.out.print(jsonpath.get("$"));
 		System.out.println(jsonpath.getString("$"));
-		System.out.println(jsonpath.get());
+	//	System.out.print(jsonpath.get());
 		System.out.println(jsonpath.getString(""));
 	}
 

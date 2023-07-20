@@ -1,0 +1,20 @@
+package jJsonSchema;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class fCreateSimpleJsonArray {
+	
+	public static void main(String[] args) {
+		
+		Map<String, Object> empDetails = new HashMap<String, Object>();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

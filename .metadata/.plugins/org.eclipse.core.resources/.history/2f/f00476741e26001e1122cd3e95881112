@@ -1,0 +1,34 @@
+package jJsonSchema;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import io.restassured.RestAssured;
+
+public class fCreateSimpleJsonArray {
+	
+	public static void main(String[] args) {
+		
+		Map<String, Object> empDetails = new HashMap<String, Object>();
+		empDetails.put("id", 1);
+		empDetails.put("first_name", "Ira");
+		empDetails.put("last_name", "Chung");
+		empDetails.put("email", "ichung0@scientificamerican.com");
+		empDetails.put("gender", "Female");
+		
+		List<Map<String, Object>> allemp = new ArrayList<>();
+		allemp.add(empDetails);
+		
+		RestAssured
+		.given()
+		.log()
+		.all()
+		.body(empDetails)
+		.get();
+		
+	
+	}
+
+}

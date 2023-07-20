@@ -1,0 +1,11 @@
+package jJsonSchema;
+
+public class fCreateSimpleJsonArray {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

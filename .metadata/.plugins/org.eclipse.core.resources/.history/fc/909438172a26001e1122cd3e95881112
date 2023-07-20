@@ -1,0 +1,21 @@
+package jJsonSchema;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+public class gCreateComplexPayloadUsingMapList {
+
+	public static void main(String[] args) {
+
+		//To Create JSON Array in java we use Lists
+		
+		//Parent JSON Array
+		List<Map<String, Object>> finalpayload = new ArrayList<Map<String, Object>>();
+		
+		Map<String, Object> firstjsonobject = new LinkedHashMap<String, Object>();
+		
+	}
+
+}
