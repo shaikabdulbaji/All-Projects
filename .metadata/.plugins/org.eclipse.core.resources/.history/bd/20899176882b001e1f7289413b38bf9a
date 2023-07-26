@@ -1,0 +1,13 @@
+package aJSONtoPOJO;
+
+public class eEmployeeWithAllData {
+
+	public static void main(String[] args) {
+
+		dEmployee emp1 = new dEmployee();
+		System.out.println(emp1.getAge());
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package aJSONtoPOJO_Jackson;
+
+public class lignore {
+	
+	/*
+	 * Serialization - This is the process in which a Java Object is converted to JSON Object means
+	   we are creating the object of POJO class and setting the values and then we are converting to 
+	   JSON Object.
+	 * Reverse of it is call Deserialization.
+	 */
+
+}

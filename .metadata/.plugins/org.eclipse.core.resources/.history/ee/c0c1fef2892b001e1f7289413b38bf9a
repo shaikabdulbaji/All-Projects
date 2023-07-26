@@ -1,0 +1,22 @@
+package aJSONtoPOJO;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class eEmployeeWithAllData {
+
+	public static void main(String[] args) throws JsonProcessingException {
+
+		dEmployee emp1 = new dEmployee();
+		emp1.setName("Abdul");
+		emp1.setAge(28);
+		emp1.setMarried(true);
+		emp1.setAddress("BLR");
+		emp1.setMobileNo("123456789");
+		
+		ObjectMapper obmap = new ObjectMapper();
+		String json = obmap.writerWithDefaultPrettyPrinter().writeValueAsString(emp1);
+		System.out.println(json);
+	}
+
+}

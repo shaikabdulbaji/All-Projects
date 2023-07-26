@@ -1,0 +1,22 @@
+package aJSONtoPOJO_Jackson;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class oJsonPropertyExample {
+
+	public static void main(String[] args) throws JsonProcessingException {
+
+		nBook book = new nBook();
+		book.setBookName("Shaik Abdul");
+		book.setAuthorName("Abdul Baji");
+		
+		ObjectMapper obmap = new ObjectMapper();
+		String bookjsonobject = obmap.writerWithDefaultPrettyPrinter().writeValueAsString(book);
+		System.out.println(bookjsonobject);
+		
+		nbook b1 = obmap.readValue(bookjsonobject, nBook.class);
+		
+	}
+
+}

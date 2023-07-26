@@ -1,0 +1,17 @@
+package lPOJOPlainOldJavaObject;
+
+public class cPrivateEmployeePojoExample {
+	
+	private int id;
+	private String name;
+	private String mobno;
+	private String gender;
+	private int departid;
+	private String address;
+	
+	/*
+	 * If we have employee dettails as public we can access any where, if the employee details are
+	   private we can access by using "getter and setter" methods.
+	 */
+	
+}

@@ -1,0 +1,14 @@
+package mConverstion;
+
+public class aEmployee {
+	
+	private String first_name;
+	private String last_name;
+	private String proffesion;
+	private int age;
+	private double salary;
+	
+	
+	
+
+}

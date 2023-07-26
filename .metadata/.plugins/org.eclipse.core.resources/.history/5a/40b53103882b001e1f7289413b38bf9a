@@ -1,0 +1,12 @@
+package aJSONtoPOJO;
+
+public class eEmployeeWithAllData {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package mConverstionFromPOJOtoJSONandJSONtoPOJO;
+
+import java.util.List;
+import io.restassured.RestAssured;
+import io.restassured.common.mapper.TypeRef;
+
+public class iConvertSimpleJSONArrayResponsetoPOJOUsingJavaList {
+
+	public static void main(String[] args) {
+
+		List<Address> addresses = 
+				RestAssured
+					.get("https://run.mocky.io/v3/25ae98e0-a04a-4b65-b415-eb37502baa42")
+					.as(new TypeRef<List<Address>>(){});
+		
+		System.out.println("No of Addresses :" +addresses.size());
+		System.out.println(addresses.get(0));
+		System.out.println(addresses.get(1));
+		
+		
+		
+	}
+
+}

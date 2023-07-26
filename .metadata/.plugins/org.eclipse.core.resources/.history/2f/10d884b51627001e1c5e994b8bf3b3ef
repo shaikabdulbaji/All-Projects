@@ -1,0 +1,21 @@
+package jJsonSchema;
+
+import java.util.List;
+
+import io.restassured.RestAssured;
+
+public class kConvertJsonArrayResponseToList {
+
+	public static void main(String[] args) {
+
+		List<Object> allemp = RestAssured
+			.get("https://run.mocky.io/v3/6926602c-2126-43ff-8669-ef65379d3f48")
+			.as(List.class);
+		
+			System.out.println(allemp.size());
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package mConverstion;
+
+import io.restassured.RestAssured;
+
+public class bJsonObjectResponseToPojo {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		aEmployee emp = RestAssured
+			.get("https://run.mocky.io/v3/4a3dd90f-cbf1-41e8-8c9c-ed4a1ff072e3")
+			.as(aEmployee.class);
+
+		int age = emp.getAge();
+		System.out.println(age);
+		
+		
+	}
+
+}

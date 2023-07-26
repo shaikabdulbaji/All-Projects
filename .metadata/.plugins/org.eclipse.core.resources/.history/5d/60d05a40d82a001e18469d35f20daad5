@@ -1,0 +1,19 @@
+package mConverstion;
+
+import io.restassured.RestAssured;
+
+public class eNestedJsonObjectToPojo {
+
+	public static void main(String[] args) {
+
+		cEmployeeWithAddress employee = RestAssured
+				.get("https://run.mocky.io/v3/b02dc796-59fb-478c-b111-dd5d6e0f0654")
+			.as(cEmployeeWithAddress.class);
+		
+		String fn = employee.getFirstName();
+		System.out.println(fn);
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package aJSONtoPOJO_Jackson;
+
+public class mJsonIgnorePropertiesExample {
+	
+	public static void main(String[] args) {
+	
+	/*
+	 * Serialization - This is the process in which a Java Object is converted to JSON Object means
+	   we are creating the object of POJO class and setting the values and then we are converting to 
+	   JSON Object.
+	 * Reverse of it is call Deserialization.
+	 * Deserialization - This is the process in which we have String of JSON Object and that will 
+	   pass to a POJO class and then we get the values and fetch the values out of that JSON.
+	  
+	   
+	 */
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

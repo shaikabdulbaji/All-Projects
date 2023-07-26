@@ -1,0 +1,12 @@
+package kDataShare;
+
+import java.util.LinkedHashMap;
+
+public class eDatastoreAsMap {
+	
+	private eDatastoreAsMap() {};
+	// We created the Constructor because no one will create the Object
+	
+	private static LinkedHashMap<String, Object> dataMap = new LinkedHashMap<String, Object>();
+
+}

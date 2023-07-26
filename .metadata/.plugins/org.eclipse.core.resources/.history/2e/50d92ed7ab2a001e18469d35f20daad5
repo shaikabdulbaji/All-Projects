@@ -1,0 +1,17 @@
+package lPOJOPlainOldJavaObject;
+
+public class jCreateNestedJsonPayload {
+
+	public static void main(String[] args) {
+
+		hEmployee e = new hEmployee();
+		e.setFirst_name("shaik");
+		e.setLast_name("Abdul");
+		e.setProffesion("Software Tester");
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package jJsonSchema;
+
+import java.util.List;
+import java.util.Map;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class mHandlingDynamicJsonResponseUsingInsatnceof {
+
+	public static void main(String[] args) {
+
+		Response res =
+			RestAssured.get("https://run.mocky.io/v3/004b4b36-9ae8-420c-b78d-36a8b7c365fe");
+		
+		Object respasObject = res.as(Object.class);
+		if(respasObject instanceof List)
+		{
+			List respasList = (List) respasObject;
+			System.out.println(respasList.size());
+		}else if(respasObject instanceof Map)
+		{
+			Map respasMap = (Map) respasObject;
+			System.out.println(respasMap.keySet());
+		}
+		
+	}
+
+}

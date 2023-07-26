@@ -1,0 +1,26 @@
+package mConverstion;
+
+import io.restassured.RestAssured;
+
+public class bJsonObjectResponseToPojo {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Till now we do "serialization" means mock the api and hit that api we get then json payload for that 
+		   getting json payload we creat pojo class and the creat object of it and we need to set the 
+		   values.
+		   
+		 * From now onwards we do "deserialization" we get the particular json as response now this 
+		   response i want to convert to pojo. 
+		 */
+		
+		
+		RestAssured
+			.get("https://run.mocky.io/v3/4a3dd90f-cbf1-41e8-8c9c-ed4a1ff072e3");
+		
+		
+		
+	}
+
+}

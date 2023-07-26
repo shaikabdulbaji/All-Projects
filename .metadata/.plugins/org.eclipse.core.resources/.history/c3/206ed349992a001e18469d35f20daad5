@@ -1,0 +1,12 @@
+package lPOJOPlainOldJavaObject;
+
+public class cPrivateEmployeePojoExample {
+	
+	private int id;
+	private String name;
+	private String mobno;
+	private String gender;
+	private int departid;
+	private String address;
+	
+}

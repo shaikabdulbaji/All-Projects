@@ -1,0 +1,12 @@
+package aJSONtoPOJO;
+
+public class aJSONtoPOJOAddress {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}

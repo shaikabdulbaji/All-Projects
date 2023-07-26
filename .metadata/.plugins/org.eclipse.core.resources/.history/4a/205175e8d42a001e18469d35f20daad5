@@ -1,0 +1,35 @@
+package mConverstion;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import io.restassured.RestAssured;
+
+public class bJsonObjectResponseToPojo {
+
+	public static void main(String[] args) throws JsonMappingException, JsonProcessingException {
+
+		/*
+		 * Till now we do "serialization" means mock the api and hit that api we get then json payload for that 
+		   getting json payload we creat pojo class and the creat object of it and we need to set the 
+		   values.
+		   
+		 * From now onwards we do "deserialization" we get the particular json as response now this 
+		   response i want to convert to pojo. 
+		   
+		 * since we are converting to aEmployee POJO so return typewill be same as POJO class
+		 */
+		
+		
+		String jsonUrl = "https://run.mocky.io/v3/76e9c2a0-6575-44a4-b390-ca773883050e";
+		
+		ObjectMapper om = new ObjectMapper();
+		aEmployee empobj = om.readValue(jsonUrl, aEmployee.class);
+
+		
+		
+		
+	}
+
+}

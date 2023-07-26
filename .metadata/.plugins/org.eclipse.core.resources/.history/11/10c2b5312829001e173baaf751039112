@@ -1,0 +1,13 @@
+package kDataShare;
+
+public class lThreadLocalDataStoreAsMap {
+
+	public static void main(String[] args) {
+
+		
+		private lThreadLocalDataStoreAsMap() {};
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package lPOJOPlainOldJavaObject;
+
+public class fDummyApiForStudent {
+
+	public static void main(String[] args) {
+		
+	
+	// To access the details of Student we can create Object for that class 
+	eStudent s1  = new eStudent();
+	s1.
+	
+	
+	
+	
+	}
+}

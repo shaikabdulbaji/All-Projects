@@ -1,0 +1,12 @@
+package mConverstion;
+
+public class eNestedJsonObjectToPojo {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}

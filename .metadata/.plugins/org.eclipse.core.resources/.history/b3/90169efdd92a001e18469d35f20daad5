@@ -1,0 +1,15 @@
+package mConverstionFromPOJOtoJSONandJSONtoPOJO;
+
+import io.restassured.RestAssured;
+
+public class fConvertaSomePortionOfNestedJsonObjectToPojo {
+
+	public static void main(String[] args) {
+
+		cEmployeeWithAddress employee = RestAssured
+				.get("https://run.mocky.io/v3/ea8892e0-1050-4130-893b-c3b134baea26")
+		
+		
+	}
+
+}

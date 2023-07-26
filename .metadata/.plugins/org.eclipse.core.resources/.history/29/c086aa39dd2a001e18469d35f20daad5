@@ -1,0 +1,15 @@
+package mConverstionFromPOJOtoJSONandJSONtoPOJO;
+
+import io.restassured.RestAssured;
+
+public class gConvertSimpleJSONArrayResponsetoPOJO {
+
+	public static void main(String[] args) {
+
+		RestAssured.get("");
+		
+		
+		
+	}
+
+}

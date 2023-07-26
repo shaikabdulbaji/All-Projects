@@ -1,0 +1,14 @@
+package aJSONtoPOJO_Jackson;
+
+public class oJsonPropertyExample {
+
+	public static void main(String[] args) {
+
+		nBook book = new nBook();
+		book.setBookName("Shaik Abdul");
+		book.setAuthorName("Abdul Baji");
+		
+		
+	}
+
+}

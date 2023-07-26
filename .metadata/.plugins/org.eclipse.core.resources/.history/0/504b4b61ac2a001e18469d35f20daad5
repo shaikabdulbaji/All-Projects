@@ -1,0 +1,32 @@
+package lPOJOPlainOldJavaObject;
+
+import io.restassured.RestAssured;
+
+public class jCreateNestedJsonPayload {
+
+	public static void main(String[] args) {
+
+		hEmployee employee = new hEmployee();
+		employee.setFirst_name("shaik");
+		employee.setLast_name("Abdul");
+		employee.setProffesion("Software Tester");
+		
+		iAddressForEmployee address = new iAddressForEmployee();
+		address.setHousNo(404);
+		address.setStreetName("Not Found");
+		address.setCity("Bengaluru");
+		address.setState("KA");
+		address.setCity("INDIA");
+		
+		employee.setAddress(address);
+		
+		RestAssured
+			.given()
+			.log()
+			.all()
+			.body(employee)
+			.post();
+		
+	}
+
+}

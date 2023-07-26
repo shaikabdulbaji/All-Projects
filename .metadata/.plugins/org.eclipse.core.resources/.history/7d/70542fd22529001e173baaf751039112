@@ -1,0 +1,15 @@
+package kDataShare;
+
+public class kThreadLocalExample {
+
+	public static void main(String[] args) {
+
+		// ThreadLocal is a class in Java
+		// Any generic class we can create object without passing generics as well
+		
+		ThreadLocal counter1 = new ThreadLocal();		
+		
+		counter1.set("Abdul");
+	}
+
+}

@@ -1,0 +1,15 @@
+package aJSONtoPOJO;
+
+public class eEmployeeWithAllData {
+
+	public static void main(String[] args) {
+
+		dEmployee emp1 = new dEmployee();
+		emp1.setName("Abdul");
+		emp1.setAge(28);
+		emp1.setMarried(true);
+		emp1.setAddress("BLR");
+		emp1.setMobileNo("123456789");
+	}
+
+}

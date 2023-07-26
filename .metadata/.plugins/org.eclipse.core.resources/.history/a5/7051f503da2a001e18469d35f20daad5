@@ -1,0 +1,21 @@
+package mConverstionFromPOJOtoJSONandJSONtoPOJO;
+
+import javax.mail.Address;
+
+import io.restassured.RestAssured;
+
+public class fConvertaSomePortionOfNestedJsonObjectToPojo {
+
+	public static void main(String[] args) {
+
+		dAddressOfEmployee address = RestAssured
+				.get("https://run.mocky.io/v3/ea8892e0-1050-4130-893b-c3b134baea26")
+				.jsonPath()
+				.getObject("address", dAddressOfEmployee.class);
+		
+	   System.out.println(address.ge);
+		
+		
+	}
+
+}

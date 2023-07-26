@@ -1,0 +1,31 @@
+package aJSONtoPOJO;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.exc.StreamReadException;
+import com.fasterxml.jackson.databind.DatabindException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import bPOJO.aAddress;
+
+public class aJSONtoPOJOAddress {
+
+	public static void main(String[] args) throws StreamReadException, DatabindException, IOException {
+
+		/*
+		 * Class Object Mapper helps to convert a JSON to POJO and viceversa.
+		 * Class Object Mapper is helps in many ways as of now we are using it for reading and 
+		   writing the data from file.
+		 */
+		
+		ObjectMapper obmap = new ObjectMapper();
+		obmap.readValue(
+				new File("C:\\Users\\Asus\\OneDrive\\Desktop\\Ecli[pse workspace\\RestAssured\\src\\test\\resource\\aPayloads\\address.json"), 
+				aAddress.class);
+		
+		
+		
+	}
+
+}

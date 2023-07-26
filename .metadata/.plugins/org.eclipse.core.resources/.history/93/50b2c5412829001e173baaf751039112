@@ -1,0 +1,11 @@
+package kDataShare;
+
+public class lThreadLocalDataStoreAsMap {
+
+		private lThreadLocalDataStoreAsMap() {};
+		// We created the Constructor because no one will create the Object
+		
+		
+	
+
+}

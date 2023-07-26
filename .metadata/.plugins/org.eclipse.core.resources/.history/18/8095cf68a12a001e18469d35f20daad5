@@ -1,0 +1,12 @@
+package lPOJOPlainOldJavaObject;
+
+public class eStudent {
+	
+	private int accountnum;
+	private double balance;
+	private String first_name;
+	private String last_name;
+	private String email;
+	private String gender;
+
+}

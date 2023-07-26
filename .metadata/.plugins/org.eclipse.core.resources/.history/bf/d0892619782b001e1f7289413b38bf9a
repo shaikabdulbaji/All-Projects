@@ -1,0 +1,17 @@
+package aJSONtoPOJO;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class aJSONtoPOJOAddress {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Class Object Mapper helps to convert a JSON to POJO and viceversa.
+		 */
+		
+		ObjectMapper obmap = new ObjectMapper();
+		
+	}
+
+}

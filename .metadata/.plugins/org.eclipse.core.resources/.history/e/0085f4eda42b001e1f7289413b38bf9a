@@ -1,0 +1,12 @@
+package aJSONtoPOJO_Jackson;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+public class nBook {
+	
+	@JsonProperty("book name")
+	private String bookName;
+	@JsonProperty("author name")
+	private String authorName;
+
+}

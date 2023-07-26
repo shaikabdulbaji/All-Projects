@@ -1,0 +1,9 @@
+package aJSONtoPOJO_Jackson;
+
+public class nBook {
+	
+	private String bookName;
+	
+	private String authourName;
+
+}

@@ -1,0 +1,12 @@
+package lPOJOPlainOldJavaObject;
+
+public class aEmployeePojoExample {
+	
+	public int id;
+	public String name;
+	public String mobno;
+	public String gender;
+	public int age;
+	public String address;
+	
+}

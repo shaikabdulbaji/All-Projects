@@ -1,0 +1,15 @@
+package aJSONtoPOJO;
+
+public class dEmployeeAddress {
+	
+	private String name;
+	private int age;
+	private String married;
+	private String address;
+	private String mobileNo;
+	
+	
+	
+	
+
+}

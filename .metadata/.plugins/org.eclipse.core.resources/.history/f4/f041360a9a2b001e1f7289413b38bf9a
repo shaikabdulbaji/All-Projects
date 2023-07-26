@@ -1,0 +1,9 @@
+package bInclude;
+
+public class cEmployeeSkills extends aEmployee {
+	
+	private String skills;
+	
+	
+
+}

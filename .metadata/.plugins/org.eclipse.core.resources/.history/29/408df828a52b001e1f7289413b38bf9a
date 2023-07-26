@@ -1,0 +1,10 @@
+package aJSONtoPOJO_Jackson;
+
+public class oJsonPropertyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -26,13 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="RestAssured.RestAssured"/>
 		</list>
 		<list key="groupId">
-			<item value="RestAssured"/>
 		</list>
 		<list key="artifactId">
-			<item value="RestAssured"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
