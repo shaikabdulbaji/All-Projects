@@ -1,0 +1,34 @@
+package OtherConceptsOfRestAssured;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+
+public class RealTimeHeaderOverwrite {
+	
+	
+	@Test
+	public void realtimeheaderoverwrite()
+	{
+		
+		RequestSpecification res1 = RestAssured.given()
+				.header("header1","value1");
+		
+		RequestSpecification res2 = RestAssured.given()
+				.header("header2","value2");
+		
+		RestAssured
+			.given()
+			.spec(res1)
+			.spec(res2)
+			.log()
+			.all()
+		.given()
+			.get();
+		
+		 
+	}
+
+}

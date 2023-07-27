@@ -56,3 +56,31 @@
 1690366928290	Copy compilation unit
 1690366970958	Rename type 'lignore'
 1690367376764	Rename type 'lEmployee2'
+1690388367628	Rename type 'a'
+1690389655127	Copy compilation unit
+1690389666919	Rename type 'bDeserialization_JsonObjectToPojoObject'
+1690389705991	Rename type 'bPojoObjectToJsonObject'
+1690394873134	Copy compilation unit
+1690395063624	Copy compilation unit
+1690395075117	Rename type 'cUsageOfEmployee'
+1690395084179	Rename type 'ccEmployee'
+1690396338675	Rename type 'bUsageOfEmployee'
+1690396360109	Rename type 'dUsageOfEmployee'
+1690396372436	Rename type 'bGetterandSetterMethods'
+1690431025172	Copy package
+1690431043463	Rename package 'aJSONtoPOJO_Jackson'
+1690431055049	Copy package
+1690431069679	Rename package 'bInclude'
+1690431076252	Copy package
+1690431092938	Rename package 'cSerializationAndDeseraialization'
+1690431098265	Copy package
+1690431112692	Rename package 'dVerifyingTypeOfResponse'
+1690431123784	Copy package
+1690431136683	Rename package 'eRemoveGetterandSetterMethodsByLambok'
+1690431210698	Delete element
+1690431255273	Delete element
+1690431261672	Delete element
+1690431268790	Delete element
+1690431274917	Delete element
+1690436175110	Rename type 'a'
+1690436410568	Rename package 'aCreateBooking'

@@ -1,0 +1,21 @@
+package eRemoveGetterandSetterMethodsByLambok;
+
+import lombok.Builder;
+import lombok.Getter;
+
+@Builder(toBuilder = true)
+@Getter
+public class cEmployee {
+	
+	private String name;
+	private int age; 
+	private int salary;
+	
+	/*
+	 * Before "@Builder" method we use to customize(or)set any value we use to call .set methods and for
+	   retriving that values we use .get methods.
+	 
+	   
+	 */
+
+}

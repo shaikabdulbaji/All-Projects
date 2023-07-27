@@ -1,0 +1,23 @@
+package cSerializationAndDeseraialization;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class bPojoObjectToJsonObject {
+
+	public static void main(String[] args) throws JsonProcessingException {
+
+		// Below line is the Java Objecct
+		aPerson per = new aPerson();
+		per.setName("Shaik");
+		per.setAge(28);
+		
+		// Now we can converting above Java Object to JSON Object
+		ObjectMapper obmap = new ObjectMapper();
+		obmap.writerWithDefaultPrettyPrinter().writeValueAsString(per);
+		
+		
+		
+	}
+
+}

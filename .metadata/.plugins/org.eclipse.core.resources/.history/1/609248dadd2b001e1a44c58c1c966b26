@@ -1,0 +1,13 @@
+package eRemoveGetterandSetterMethodsByLambok;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class aEmployee {
+	
+	private String name;
+	private int age; 
+
+}

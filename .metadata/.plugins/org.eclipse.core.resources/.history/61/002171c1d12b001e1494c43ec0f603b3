@@ -1,0 +1,14 @@
+package cSerializationAndDeseraialization;
+
+public class bPojoObjectToJsonObject {
+
+	public static void main(String[] args) {
+
+		aPerson per = new aPerson();
+		per.setName("Shaik");
+		per.setAge(28);
+		
+		
+	}
+
+}

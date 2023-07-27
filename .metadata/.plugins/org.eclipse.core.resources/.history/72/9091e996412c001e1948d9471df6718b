@@ -1,0 +1,38 @@
+package sRetry;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+
+public class aCreateBooking {
+
+	public void createBooking()
+	{
+		int randomNumber = (int)((Math.random() * (50-1))+1);
+		System.out.println(randomNumber);
+		
+		if(randomNumber % 2 == 0)
+		{
+		RestAssured
+		.given()
+		.body("{\r\n"
+				+ "    \"firstname\" : \"Shaik\",\r\n"
+				+ "    \"lastname\" : \"Abdul\",\r\n"
+				+ "    \"totalprice\" : 16,\r\n"
+				+ "    \"depositpaid\" : false,\r\n"
+				+ "    \"bookingdates\" : {\r\n"
+				+ "        \"checkin\" : \"2024-01-01\",\r\n"
+				+ "        \"checkout\" : \"2024-01-01\"\r\n"
+				+ "    },\r\n"
+				+ "    \"additionalneeds\" : \"Lunch\"\r\n"
+				+ "}")
+		.contentType(ContentType.JSON)
+		.post("https://restful-booker.herokuapp.com/booking")
+		.statusCode();
+		}
+		else 
+		{
+			return 0;
+		}
+	}
+
+}

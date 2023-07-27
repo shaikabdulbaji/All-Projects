@@ -1,0 +1,30 @@
+package cSerializationAndDeseraialization;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class cDeserialization_JsonObjectToPojoObject {
+
+	public static void main(String[] args) throws JsonProcessingException {
+
+		
+		// Below line is the Java Objecct
+		String jsonResponse = "{\r\n"
+				+ "  \"name\": \"Abdul\",\r\n"
+				+ "  \"age\": 30\r\n"
+				+ "}";
+		
+		// Now we can converting above Java Object to JSON Object
+		ObjectMapper obmap = new ObjectMapper();
+		String jsonObject = obmap.writerWithDefaultPrettyPrinter().writeValueAsString(per);
+		System.out.println(jsonObject);
+		// without this "writerWithDefaultPrettyPrinter()" json will print in single line 
+		// with this "writerWithDefaultPrettyPrinter()" json will print in payload or readable format
+		
+		System.out.println("The above all process is called as Deserialization");
+		
+		
+		
+	}
+
+}

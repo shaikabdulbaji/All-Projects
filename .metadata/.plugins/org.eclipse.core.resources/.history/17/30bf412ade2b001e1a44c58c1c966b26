@@ -1,0 +1,18 @@
+package eRemoveGetterandSetterMethodsByLambok;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class aEmployee {
+	
+	private String name;
+	private int age; 
+	
+	/*
+	 * Before "Lambok" we use Getter and Setter methods to customize and retrive the data, there are so 
+	   many disadvantage there. To overcome those we go for "Lambok"
+	 */
+
+}

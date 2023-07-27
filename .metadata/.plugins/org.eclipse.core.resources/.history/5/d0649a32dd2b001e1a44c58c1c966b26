@@ -1,0 +1,8 @@
+package eRemoveGetterandSetterMethodsByLambok;
+
+public class aEmployee {
+	
+	private String name;
+	private int age; 
+
+}
