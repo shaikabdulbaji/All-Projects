@@ -1,7 +1,0 @@
-package kDataShare;
-
-public class eDatastoreAsMap {
-	
-	private eDatastoreAsMap() {};
-
-}

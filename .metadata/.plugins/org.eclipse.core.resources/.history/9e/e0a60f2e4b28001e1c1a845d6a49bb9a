@@ -1,7 +1,0 @@
-package kDataShare;
-
-public class cDatastore {
-	
-	public static int Booking_ID;
-
-}
