@@ -9,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,6 +20,18 @@ public class aDemo {
 		/*
 		 * We can take the screen-shot of a web element using getScreenshotAs() method
 		 */
+		
+		/*
+		WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get( "http://omayo.blogspot.com/");
+        
+        File srcScreenshot = driver.findElement(By.id("hbutton")).getScreenshotAs(OutputType.FILE);
+        FileHandler.copy(srcScreenshot, new File(System.getProperty("user.dir")+ "\\screenshots\\screenshot.png"));
+        
+        driver.quit();
+		*/
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
